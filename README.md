@@ -25,4 +25,4 @@ A warning, if you input voltages such that you don't have a stable equilibrium p
 
 paulCalcSecularFreqs(60,60,60,60,60,150,2e6);
 
-Then it will likely return some weird results, or even throw an error. So keep in mind the actual physics when you're using these scripts.
+Then it will throw an error (and/or give weird results), in this case because the axial potential is no longer a harmonic stable equilibrium. So, keep the physics in mind when you're calculating secular frequencies, don't just put random voltages into the functions.
